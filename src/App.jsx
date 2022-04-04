@@ -129,7 +129,7 @@ function App() {
         </>
       )}
 
-      {modal &&
+      {modal && isValidBudget &&
         <Modal
           setModal={setModal}
           modalAnimation={modalAnimation}
